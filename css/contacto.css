@@ -8,24 +8,11 @@ h1{
 h2{
    font-family: 'Belanosima', sans-serif;
 }
-
-.container {
-    text-align: center;
-    color: #00425A  ;
-  }
-
- .container-fluid {
-    background-color: #1F8A70;
-    height: 80px;
- }
-
- .nav-link {
-    color: #FC7300 ;
- }
+ 
  #formulario {
     
-    color: #eff5f5;
-    background-color: #00425A ;
+    color: #00425A;
+
     display: flex;
     justify-content: center;
     width: 80%;
@@ -47,10 +34,15 @@ input {
     width: 300px;
     height: 30px;
     margin-left: 10px;
-    border: none;
     border-radius: 1rem;
+    border: 1px solid #00425A;
     padding: 1rem;
 
+}
+
+.navbar-nav .nav-link, .navbar-nav .nav-link.show {
+    color: #1F8A70 !important;
+    font-weight: bold;
 }
 
 textarea {
@@ -60,7 +52,7 @@ textarea {
     width: 320px;
     height: 200px;
     margin-left: 1rem;
-    border: 0px solid;
+    border: 1px solid #00425A;
     border-radius: 1rem;
     padding: 1rem;
     resize: none;
@@ -75,7 +67,6 @@ textarea {
     height: 45px;
     border-radius: 3rem;
     font-size: 1.5rem;
-    margin: 1rem 0 1rem 5rem;
 }
 
 #piePagina{

@@ -11,16 +11,6 @@ h2{
 }
 
 
-.container {
-    text-align: center;
-    color: #00425A  ;
-  }
-
- .container-fluid {
-    background-color: #1F8A70;
-    height: 80px;
- }
-
  #parrafo1 {
     margin-left: 50%;
     }
@@ -73,7 +63,10 @@ h2{
       display: table;
       clear: both;
   }
-
+  .navbar-nav .nav-link, .navbar-nav .nav-link.show {
+    color: #1F8A70 !important;
+    font-weight: bold;
+}
   .seccion3 {
     width: 100%;
     margin-bottom: 50px;
