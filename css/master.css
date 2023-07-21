@@ -1,3 +1,15 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family: 'Belanosima', sans-serif;
+}
+
+h2{
+    font-family: 'Belanosima', sans-serif;
+}
+
 .container {
     text-align: center;
     color: #00425A  ;
@@ -22,4 +34,91 @@
 
 #parrafo3{
     margin-left: 50%;
+}
+
+.seccion1 {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.seccion1 img{
+    float: left;
+    margin-right: 10px;
+}
+
+.seccion1 p{
+    margin: 0;
+}
+
+.seccion1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.seccion2 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .seccion2 img{
+      float: right;
+      margin-left: 10px;
+  }
+  
+  .seccion2 p{
+      margin: 0;
+  }
+  
+  .seccion2::after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .seccion3 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .seccion3 img{
+      float: left;
+      margin-right: 10px;
+  }
+  
+  
+  .seccion3::after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  #piePagina{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 0.5fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #FC7300  ;
+    color: #EFF5F5 ;
+    
+}
+#redesSociales{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+#piePagina h2{
+text-align: center;
+padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ion-icon{
+    color: white;
+    font-size: 2rem;
 }
