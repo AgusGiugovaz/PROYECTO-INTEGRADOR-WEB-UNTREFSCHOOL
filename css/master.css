@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+    color: #00425A  ;
+  }
+
+ .container-fluid {
+    background-color: #1F8A70;
+    height: 80px;
+ }
+
+ .nav-link {
+    color: #FC7300 ;
+ }
+
+ #parrafo1 {
+    margin-left: 50%;
+    }
+
+#parrafo2{
+    margin-right: 50%;
+}
+
+#parrafo3{
+    margin-left: 50%;
+}
