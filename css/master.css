@@ -10,6 +10,7 @@ h2{
     font-family: 'Belanosima', sans-serif;
 }
 
+
 .container {
     text-align: center;
     color: #00425A  ;
@@ -18,10 +19,6 @@ h2{
  .container-fluid {
     background-color: #1F8A70;
     height: 80px;
- }
-
- .nav-link {
-    color: #FC7300 ;
  }
 
  #parrafo1 {
