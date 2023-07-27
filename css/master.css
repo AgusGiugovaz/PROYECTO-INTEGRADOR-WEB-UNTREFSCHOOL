@@ -10,16 +10,6 @@ h2{
     font-family: 'Belanosima', sans-serif;
 }
 
-.figure-caption{
-    font-weight: bold !important;
-    font-size: medium !important;
-    color: #1F8A70 !important;
-}
-
-.navbar-nav .nav-link, .navbar-nav .nav-link.show {
-    color: #1F8A70 !important;
-    font-weight: bold;
-}
 
  #parrafo1 {
     margin-left: 50%;
@@ -73,7 +63,10 @@ h2{
       display: table;
       clear: both;
   }
-
+  .navbar-nav .nav-link, .navbar-nav .nav-link.show {
+    color: #1F8A70 !important;
+    font-weight: bold;
+}
   .seccion3 {
     width: 100%;
     margin-bottom: 50px;
@@ -98,13 +91,18 @@ h2{
     align-items: center;
     background-color: #FC7300  ;
     color: #EFF5F5 ;
-    }
+    
+}
+#redesSociales{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
 
 #piePagina h2{
 text-align: center;
 padding: 20px;
 }
-  
 
 ul{
     list-style-type: none;
@@ -114,4 +112,5 @@ ion-icon{
     color: white;
     font-size: 2rem;
 }
+
   
